@@ -27,16 +27,20 @@ class Program
 
         // process
         Console.WriteLine("");
-        if ((length1 <= 0) || (length2 <= 0) || (length3 <= 0)){
+        if ((length1 <= 0) || (length2 <= 0) || (length3 <= 0))
+        {
             Console.WriteLine("The length cannot be 0 or negative number..");
         }
-        else if ((length1 == length2) && (length2 == length3)){
+        else if ((length1 == length2) && (length2 == length3))
+        {
             Console.WriteLine("The triangle is an equilateral triangle because all of the lengths and angles are same and equal to each other.");
         }
-        else if ((length1 == length2) || (length2 == length3) || (length3 == length1)){
+        else if ((length1 == length2) || (length2 == length3) || (length3 == length1))
+        {
             Console.WriteLine("The triangle is an isosceles triangle because two of the lengths are equal to each other.");
         }
-        else if ((length1 != length2) || (length2 != length3) || (length3 != length1)){
+        else if ((length1 != length2) || (length2 != length3) || (length3 != length1))
+        {
             Console.WriteLine("The triangle is a scalene triangle because none of the lengths are equal to each other.");
         }
         Console.WriteLine("\nDone.");

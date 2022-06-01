@@ -18,11 +18,11 @@ class Program
         Console.Write("This program tells you which type of triangle you entered. ");
         Console.WriteLine("");
         Console.Write("\nInput three lengths of your triangle: ");
-        Console.Write("\n\nfirst length:");
+        Console.Write("\n\nFirst length:");
         length1 = Convert.ToInt32(Console.ReadLine());
-        Console.Write("second length:");
+        Console.Write("Second length:");
         length2 = Convert.ToInt32(Console.ReadLine());
-        Console.Write("third length:");
+        Console.Write("Third length:");
         length3 = Convert.ToInt32(Console.ReadLine());
 
         // process

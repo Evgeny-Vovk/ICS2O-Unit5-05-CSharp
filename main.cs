@@ -29,7 +29,7 @@ class Program
         Console.WriteLine("");
         if ((length1 <= 0) || (length2 <= 0) || (length3 <= 0))
         {
-            Console.WriteLine("The length cannot be 0 or negative number..");
+            Console.WriteLine("The length cannot be 0 or negative number.");
         }
         else if ((length1 == length2) && (length2 == length3))
         {
